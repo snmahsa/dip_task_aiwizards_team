@@ -2,7 +2,6 @@
 
 This repository contains the DipWizards package developed by the AIWizards team. As a member of the AIWizards team, I have contributed to the development of this package. DipWizards is a  Python package for generating noise and applying filters to grayscale and color images.
 
-
 ## Installation
 
 To install the DipWizards package, use the following command:
