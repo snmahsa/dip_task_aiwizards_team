@@ -16,7 +16,7 @@ DipWizards provides several noise generation functions for adding random noise t
 
 ### Gaussian Noise
 ```python
-import Core.utils as utl
+import DipWizards.utils as utl
 noise_generator = utl.ImageNoiseRGB(image)
 noisy_image = noise_generator..add_noise('gauss', var=0.4)
 ```
@@ -55,7 +55,7 @@ filter_image = frequency.low_pass_filter(50)
 
 Here is an example of how to use the DipWizards package to generate noise and apply filters:
 ```python
-import Core.utils as utl
+import DipWizards.utils as utl
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
