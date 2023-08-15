@@ -105,6 +105,16 @@ compare_ssim(image, fmedian_sp, multichannel=True, channel_axis=-1, data_range=1
 ```
 0.707133375578977
 ```
+![Sample Image](https://github.com/snmahsa/myrep/blob/main/hist.png)
+
+```python
+compare_ssim(img_sp, histo_result, multichannel=True, channel_axis=-1, data_range=1.0)
+```
+
+```
+0.7997069942886444
+```
+
 
 In this example, an example of image filtering performance with SSIM is the structural similarity measure of images. The corresponding notebook is available in this repository and you can see more examples of them.
 
