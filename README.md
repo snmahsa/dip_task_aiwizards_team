@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 digital image processing involves transforming images from the real-world domain into digital domains, extracting useful information from images, and applying changes according to specific needs and objectives. This process has widespread applications in various fields such as medicine, security, robotics, computer vision, artificial intelligence, and more.
 
