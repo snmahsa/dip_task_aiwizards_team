@@ -1,3 +1,9 @@
+#Introduction
+
+digital image processing involves transforming images from the real-world domain into digital domains, extracting useful information from images, and applying changes according to specific needs and objectives. This process has widespread applications in various fields such as medicine, security, robotics, computer vision, artificial intelligence, and more.
+
+Filtering is another important process in digital image processing. In this stage, filters and masks are applied to the image to highlight specific aspects or modify it. For example, filters can be used for noise removal, edge enhancement, image alignment, or applying special effects.
+
 # DipWizards Package
 
 This repository contains the DipWizards package developed by the AIWizards team. As a member of the AIWizards team, I have contributed to the development of this package. DipWizards is a  Python package for generating noise and applying filters to grayscale and color images.
