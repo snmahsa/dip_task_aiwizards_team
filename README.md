@@ -83,6 +83,10 @@ fmedian_adapt  = utl.SpatialFilterRGB(np.uint8(img_gauss)).apply_filter('adaptiv
 utl.show_mult_img(1,3, [fmean_gauss,fmedian_gauss, fmean_gauss])
 compare_ssim(image, fmedian_gauss, multichannel=True, channel_axis=-1, data_range=1.0)
 
+histo_image  = utl.HistogramEnhancementRGB(img_sp)
+histo_result = histo_image.apply_histogram_equalization()
+utl.show_mult_img(1, 2, [histo_result, img_sp])
+
 ```
 
 ![Sample Image](https://github.com/snmahsa/myrep/blob/main/output.png)
